@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* ^ Navbar Starts Here. */
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    font-size: 14.4px;
+    line-height: 24.48px;
+    color: #666666;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #387ed1;
+}
+
+/* & Navbar Starts Here. */
+
+/* * -------------------------------------------------------------------------------------- */
+
+/* ^ Hero Section Starts Here. */
+.hero-img{
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+
+.hero-content h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    color: #424242;
+    line-height: 55px;
+    text-align: center;
+}
+
+.hero-content p{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #424242;
+}
+
+.hero-btn{
+    font-weight: 500;
+    font-size: 19.2px;
+    line-height: 23.04px;
+    text-align: center;
+    background: #387ed1;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 30px;
+}
+/* ^ Hero Section Starts Here. */
