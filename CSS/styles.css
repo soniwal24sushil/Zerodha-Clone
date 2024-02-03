@@ -53,4 +53,62 @@ body{
     border-radius: 3px;
     padding: 10px 30px;
 }
-/* ^ Hero Section Starts Here. */
+
+.hero-btn:hover{
+    background: #222222;
+}
+
+/* & Hero Section Ends Here. */
+
+/* * -------------------------------------------------------------------------------------- */
+
+/* ^ Recognition Section Starts Here. */
+
+.recognition{
+    margin-top: 200px;
+}
+
+
+.rec-content h1{
+    font-size: 32px;
+    line-height: 48px;
+    color: #424242;
+    text-align: start;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.rec-content p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #424242;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.rec-content ul{
+    list-style: none;
+}
+
+.rec-content ul li{
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #424242;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.rec-content  ul li::before {
+    content: "\2022"; 
+    color: #000; 
+    font-size: 14px; 
+    margin-right: 8px; 
+}
+
+.press-logos{
+    margin-top: 16px;
+}
+
+/* & Recognition Section Ends Here. */
