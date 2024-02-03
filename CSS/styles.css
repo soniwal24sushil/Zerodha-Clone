@@ -221,3 +221,34 @@ body{
 /* & Price Section Ends Here. */
 
 /* * -------------------------------------------------------------------------------------- */
+
+/* ^ Market Section Starts Here. */
+
+.market-image {
+    margin-bottom: 20px; /* Adjust this value to add extra space between image and content */
+}
+
+.market-content h2{
+    font-size: 24px;
+    line-height: 40.8px;
+    color: #424242;
+}
+
+.market-para p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #424242;
+    margin-bottom: 18px;
+}
+
+.market-para a{
+    font-size: 16px;
+    line-height: 27.2px;
+    margin-bottom: 18px;
+    text-decoration: none;
+}
+
+.market-para a:hover{
+    color: #424242;
+}
