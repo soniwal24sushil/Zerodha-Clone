@@ -159,3 +159,65 @@ body{
 }
 
 /* & Trust Section Ends Here. */
+
+/* * -------------------------------------------------------------------------------------- */
+
+/* ^ Price Section Starts Here. */
+
+.left-price h2{
+    font-size: 32px;
+    line-height: 48px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.left-price p{
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.left-price a{
+    font-size: 16px;
+    line-height: 28.8px;
+    text-decoration: none;
+}
+
+.left-price a:hover{
+    color: #444444;
+}
+
+.all-box{
+    border: 1px solid #42424246;
+    border-radius: 4px;
+}
+
+.box{
+    padding-left: 25px;
+    padding-right: 24px;
+    text-align: center;
+    min-height: 190px;
+    border: 1px solid #42424244;
+    /* border-radius: 4px; */
+    width: 50%;
+}
+
+.box h1{
+    font-size: 44px;
+    line-height: 88px;
+    margin-bottom: 16px;
+    color: #424242;
+}
+
+.box p{
+    font-size: 16px;
+    line-height: 28.2px;
+    margin-bottom: 17px;
+    text-align: center;
+    color: #424242;
+}
+
+/* & Price Section Ends Here. */
+
+/* * -------------------------------------------------------------------------------------- */
