@@ -1,199 +1,339 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- Our CSS -->
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css" />
 
     <title>Zerodha</title>
   </head>
 
   <body>
-    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand py-2" href="#"><img src="IMG/logo.jpg" alt="" width="129" height="17"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- Add ms-auto here -->
-                    <li class="nav-item">
-                        <a class="nav-link px-4 py-2" aria-current="page" href="#">Signup</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-4 py-2" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-4 py-2" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-4 py-2" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-4 py-2" href="#">Support</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand py-2" href="#"
+          ><img src="IMG/logo.jpg" alt="" width="129" height="17"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Add ms-auto here -->
+            <li class="nav-item">
+              <a class="nav-link px-4 py-2" aria-current="page" href="#"
+                >Signup</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 py-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 py-2" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 py-2" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 py-2" href="#">Support</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <div class="container-fluid hero">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center align-items-center hero-img">
-                <img src="IMG/landing.png" class="img-fluid" alt="..." width="701px" height="295px">
-            </div>
-
-            <div class="col-12 d-flex flex-column justify-content-center align-items-center text-center hero-content">
-                <h1>Invest in everything</h1>
-                <p>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
-                <button type="button" class="btn btn-primary hero-btn">Sign up now</button>
-            </div>
+      <div class="row">
+        <div
+          class="col-12 d-flex justify-content-center align-items-center hero-img"
+        >
+          <img
+            src="IMG/landing.png"
+            class="img-fluid"
+            alt="..."
+            width="701px"
+            height="295px"
+          />
         </div>
+
+        <div
+          class="col-12 d-flex flex-column justify-content-center align-items-center text-center hero-content"
+        >
+          <h1>Invest in everything</h1>
+          <p>
+            Online platform to invest in stocks, derivatives, mutual funds, and
+            more
+          </p>
+          <button type="button" class="btn btn-primary hero-btn">
+            Sign up now
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- Recognition Section -->
     <div class="container recognition mb-5">
-        <div class="row d-flex justify-content-between align-items-center text-center">
-
-            <div class="col-md-5 rec-img">
-                <img src="IMG/largest-broker.jpg" class="img-fluid" alt="...">
-            </div>
-
-            <div class="col-md-6 rec-content">
-                <h1>Largest stock broker in India</h1>
-                <p>1.3+ Crore Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:</p>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul style="display: inline;">
-                            <li>Futures and Options</li>
-                            <li>Commodity derivatives</li>
-                            <li>Currency derivatives</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul style="display: inline;">
-                            <li>Stocks & IPOs</li>
-                            <li>Direct mutual funds</li>
-                            <li>Bonds and Govt. Securities</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 press-logos">
-                        <a href="#"><img src="IMG/press-logos.png" class="img-fluid" alt="..."></a>
-                    </div>
-                </div>
-            </div>
+      <div
+        class="row d-flex justify-content-between align-items-center text-center"
+      >
+        <div class="col-md-5 rec-img">
+          <img src="IMG/largest-broker.jpg" class="img-fluid" alt="..." />
         </div>
+
+        <div class="col-md-6 rec-content">
+          <h1>Largest stock broker in India</h1>
+          <p>
+            1.3+ Crore Zerodha clients contribute to over 15% of all retail
+            order volumes in India daily by trading and investing in:
+          </p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <ul style="display: inline">
+                <li>Futures and Options</li>
+                <li>Commodity derivatives</li>
+                <li>Currency derivatives</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul style="display: inline">
+                <li>Stocks & IPOs</li>
+                <li>Direct mutual funds</li>
+                <li>Bonds and Govt. Securities</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 press-logos">
+              <a href="#"
+                ><img src="IMG/press-logos.png" class="img-fluid" alt="..."
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Trust Section -->
     <div class="container trust">
-        <div class="row d-flex justify-content-between">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-5 left-trust">
+          <h1>Trust with confidence</h1>
 
-            <div class="col-md-5 left-trust">
-                <h1>Trust with confidence</h1>
-
-                <span class="para">
-                    <h3>Customer-first always</h3>
-                    <p>That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh crores worth of equity investments.</p>
-                </span>
-                <span class="para">
-                    <h3>No spam or gimmicks</h3>
-                    <p>No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.</p>
-                </span>
-                <span class="para">
-                    <h3>The Zerodha universe</h3>
-                    <p>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
-                </span>
-                <span class="para">
-                    <h3>Do better with money</h3>
-                    <p>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
-                </span>
-            </div>
-
-            <div class="col-md-7 trust-img">
-                <a href="#"><img src="IMG/ecosystem.png" class="img-fluid" alt="..."></a>
-                <span class="links d-flex justify-content-center">
-                    <a href="#">Explore our products -> </a>
-                    <a href="#">Try kite demo -> </a>
-                </span>
-            </div>
+          <span class="para">
+            <h3>Customer-first always</h3>
+            <p>
+              That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh
+              crores worth of equity investments.
+            </p>
+          </span>
+          <span class="para">
+            <h3>No spam or gimmicks</h3>
+            <p>
+              No gimmicks, spam, "gamification", or annoying push notifications.
+              High quality apps that you use at your pace, the way you like.
+            </p>
+          </span>
+          <span class="para">
+            <h3>The Zerodha universe</h3>
+            <p>
+              Not just an app, but a whole ecosystem. Our investments in 30+
+              fintech startups offer you tailored services specific to your
+              needs.
+            </p>
+          </span>
+          <span class="para">
+            <h3>Do better with money</h3>
+            <p>
+              With initiatives like Nudge and Kill Switch, we don't just
+              facilitate transactions, but actively help you do better with your
+              money.
+            </p>
+          </span>
         </div>
+
+        <div class="col-md-7 trust-img">
+          <a href="#"
+            ><img src="IMG/ecosystem.png" class="img-fluid" alt="..."
+          /></a>
+          <span class="links d-flex justify-content-center">
+            <a href="#">Explore our products -> </a>
+            <a href="#">Try kite demo -> </a>
+          </span>
+        </div>
+      </div>
     </div>
 
     <!-- Price Section -->
     <div class="container pricing mt-5 mb-5">
-        <div class="row d-flex justify-content-around align-items-center">
-            <div class="col-md-5 left-price">
-                <h2>Unbeatable pricing</h2>
-                <p>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
-                <a href="#">See pricing -></a>
-            </div>
-
-            <div class="col-md-6 right-price">
-                <div class="all-box d-flex">
-                    <div class="box">
-                        <h1>₹0</h1>
-                        <p>Free equity delivery and direct mutual funds</p>
-                    </div>
-                    <div class="box">
-                        <h1>₹20</h1>
-                        <p>Intraday and F&O</p>
-                    </div>
-                </div>
-            </div>
+      <div class="row d-flex justify-content-around align-items-center">
+        <div class="col-md-5 left-price">
+          <h2>Unbeatable pricing</h2>
+          <p>
+            We pioneered the concept of discount broking and price transparency
+            in India. Flat fees and no hidden charges.
+          </p>
+          <a href="#">See pricing -></a>
         </div>
+
+        <div class="col-md-6 right-price">
+          <div class="all-box d-flex">
+            <div class="box">
+              <h1>₹0</h1>
+              <p>Free equity delivery and direct mutual funds</p>
+            </div>
+            <div class="box">
+              <h1>₹20</h1>
+              <p>Intraday and F&O</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Market Section -->
     <div class="container market mt-5 mb-5">
-
-        <div class="row d-flex justify-content-around align-items-center ">
-
-            <div class="col-md-5 market-image">
-                <a href="#"><img src="IMG/index-education.svg" class="img-fluid" alt="..." height="100%"></a>
-            </div>
-
-            <div class="col-md-5 market-content">
-                <h2>Free and open market education</h2>
-
-                <span class="market-para">
-                    <p>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
-                    <a href="#">Varsity -></a>
-                </span>
-                <span class="market-para">
-                    <p>TradingQ&A, the most active trading and investment community in India for all your market related queries.</p>
-                    <a href="#">TradingQ&A -></a>
-                </span>
-            </div>
-
+      <div class="row d-flex justify-content-around align-items-center">
+        <div class="col-md-5 market-image">
+          <a href="#"
+            ><img
+              src="IMG/index-education.svg"
+              class="img-fluid"
+              alt="..."
+              height="100%"
+          /></a>
         </div>
+
+        <div class="col-md-5 market-content">
+          <h2>Free and open market education</h2>
+
+          <span class="market-para">
+            <p>
+              Varsity, the largest online stock market education book in the
+              world covering everything from the basics to advanced trading.
+            </p>
+            <a href="#">Varsity -></a>
+          </span>
+          <span class="market-para">
+            <p>
+              TradingQ&A, the most active trading and investment community in
+              India for all your market related queries.
+            </p>
+            <a href="#">TradingQ&A -></a>
+          </span>
+        </div>
+      </div>
     </div>
 
     <!-- Account Section -->
     <div class="container account-container mb-5">
-        <div class="row">
-            <div class="col-12 d-flex flex-column justify-content-center align-items-center account">
-                <h1>Open a Zerodha account</h1>
-                <p>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.</p>
-                <button type="button" class="btn btn-primary hero-btn mt-3">Sign up now</button>
-            </div>
+      <div class="row">
+        <div
+          class="col-12 d-flex flex-column justify-content-center align-items-center account"
+        >
+          <h1>Open a Zerodha account</h1>
+          <p>
+            Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and
+            F&O trades.
+          </p>
+          <button type="button" class="btn btn-primary hero-btn mt-3">
+            Sign up now
+          </button>
         </div>
+      </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between">
+          <span id="first">
+            <div class="footer-logo">
+              <img src="IMG/logo.jpg" alt="" />
+            </div>
+            <p class="special">© 2010 - 2024, Zerodha Broking Ltd.</p>
+            <p>All rights reserved.</p>
+            <div class="logos">
+              <a href="#"
+                ><i class="fa-brands fa-x-twitter" style="color: #666666"></i
+              ></a>
+              <i
+                class="fa-brands fa-square-facebook"
+                style="color: #666666"
+              ></i>
+              <i class="fa-brands fa-instagram" style="color: #666666"></i>
+              <i class="fa-brands fa-linkedin" style="color: #666666"></i>
+              <i class="fa-brands fa-telegram" style="color: #666666"></i>
+              <i class="fa-brands fa-youtube" style="color: #666666"></i>
+            </div>
+          </span>
+
+          <span class="second common">
+            <h1>Company</h1>
+            <h4>About</h4>
+            <h4>Products</h4>
+            <h4>Pricing</h4>
+            <h4>Referral programme</h4>
+            <h4>Careers</h4>
+            <h4>Zerodha.tech</h4>
+            <h4>Press & media</h4>
+            <h4>Zerodha Cares (CSR)</h4>
+          </span>
+
+          <span class="third common">
+            <h1>Support</h1>
+            <h4>Contact us</h4>
+            <h4>Support portal</h4>
+            <h4>Z-Connect blog</h4>
+            <h4>List of charges</h4>
+            <h4>Downloads & resources</h4>
+            <h4>Videos</h4>
+            <h4>Market overview</h4>
+            <h4>How to file a complaint?</h4>
+            <h4>Status of your complaints</h4>
+          </span>
+
+          <span class="fourth common">
+            <h1>Account</h1>
+            <h4>Open an account</h4>
+            <h4>Fund transfer</h4>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/f65c02f848.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

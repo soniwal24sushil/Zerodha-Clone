@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-body{
+body {
     font-family: 'Inter', sans-serif;
 }
 
 /* ^ Navbar Starts Here. */
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, .55);
     font-size: 14.4px;
     line-height: 24.48px;
     color: #666666;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: #387ed1;
 }
 
@@ -22,7 +22,7 @@ body{
 /* * -------------------------------------------------------------------------------------- */
 
 /* ^ Hero Section Starts Here. */
-.hero-img{
+.hero-img {
     margin-top: 100px;
     margin-bottom: 55px;
 }
@@ -34,7 +34,7 @@ body{
     text-align: center;
 }
 
-.hero-content p{
+.hero-content p {
     margin-top: 0px;
     margin-bottom: 2rem;
     font-size: 20px;
@@ -43,7 +43,7 @@ body{
     color: #424242;
 }
 
-.hero-btn{
+.hero-btn {
     font-weight: 500;
     font-size: 19.2px;
     line-height: 23.04px;
@@ -54,7 +54,7 @@ body{
     padding: 10px 30px;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     background: #222222;
 }
 
@@ -64,12 +64,12 @@ body{
 
 /* ^ Recognition Section Starts Here. */
 
-.recognition{
+.recognition {
     margin-top: 200px;
 }
 
 
-.rec-content h1{
+.rec-content h1 {
     font-size: 32px;
     line-height: 48px;
     color: #424242;
@@ -78,7 +78,7 @@ body{
     margin-top: 25px;
 }
 
-.rec-content p{
+.rec-content p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 16px;
@@ -88,11 +88,11 @@ body{
     margin-bottom: 20px;
 }
 
-.rec-content ul{
+.rec-content ul {
     list-style: none;
 }
 
-.rec-content ul li{
+.rec-content ul li {
     font-size: 16px;
     line-height: 28.8px;
     color: #424242;
@@ -100,14 +100,14 @@ body{
     margin-bottom: 5px;
 }
 
-.rec-content  ul li::before {
-    content: "\2022"; 
-    color: #000; 
-    font-size: 14px; 
-    margin-right: 8px; 
+.rec-content ul li::before {
+    content: "\2022";
+    color: #000;
+    font-size: 14px;
+    margin-right: 8px;
 }
 
-.press-logos{
+.press-logos {
     margin-top: 16px;
 }
 
@@ -117,11 +117,11 @@ body{
 
 /* ^ Trust Section Starts Here. */
 
-.trust{
+.trust {
     margin-top: 80px;
 }
 
-.left-trust h1{
+.left-trust h1 {
     font-size: 2rem;
     line-height: 48px;
     color: #424242;
@@ -129,32 +129,32 @@ body{
     font-weight: 500;
 }
 
-.para h3{
+.para h3 {
     font-size: 20px;
     line-height: 34px;
     color: #424242;
     margin-bottom: 5px;
 }
 
-.para p{
+.para p {
     font-size: 16px;
     line-height: 28.8px;
     color: #666666;
     margin-bottom: 32px;
 }
 
-.trust-img img{
+.trust-img img {
     height: 580px;
     width: auto;
 }
 
-.links a{
+.links a {
     padding: 0 20px;
     text-decoration: none;
     text-align: center;
 }
 
-.links a:hover{
+.links a:hover {
     color: #424242;
 }
 
@@ -164,36 +164,36 @@ body{
 
 /* ^ Price Section Starts Here. */
 
-.left-price h2{
+.left-price h2 {
     font-size: 32px;
     line-height: 48px;
     color: #424242;
     margin-bottom: 20px;
 }
 
-.left-price p{
+.left-price p {
     font-size: 16px;
     line-height: 27.2px;
     color: #424242;
     margin-bottom: 20px;
 }
 
-.left-price a{
+.left-price a {
     font-size: 16px;
     line-height: 28.8px;
     text-decoration: none;
 }
 
-.left-price a:hover{
+.left-price a:hover {
     color: #444444;
 }
 
-.all-box{
+.all-box {
     border: 1px solid #42424246;
     border-radius: 4px;
 }
 
-.box{
+.box {
     padding-left: 25px;
     padding-right: 24px;
     text-align: center;
@@ -203,14 +203,14 @@ body{
     width: 50%;
 }
 
-.box h1{
+.box h1 {
     font-size: 44px;
     line-height: 88px;
     margin-bottom: 16px;
     color: #424242;
 }
 
-.box p{
+.box p {
     font-size: 16px;
     line-height: 28.2px;
     margin-bottom: 17px;
@@ -225,16 +225,17 @@ body{
 /* ^ Market Section Starts Here. */
 
 .market-image {
-    margin-bottom: 20px; /* Adjust this value to add extra space between image and content */
+    margin-bottom: 20px;
+    /* Adjust this value to add extra space between image and content */
 }
 
-.market-content h2{
+.market-content h2 {
     font-size: 24px;
     line-height: 40.8px;
     color: #424242;
 }
 
-.market-para p{
+.market-para p {
     margin-top: 20px;
     font-size: 16px;
     line-height: 28.8px;
@@ -242,14 +243,14 @@ body{
     margin-bottom: 18px;
 }
 
-.market-para a{
+.market-para a {
     font-size: 16px;
     line-height: 27.2px;
     margin-bottom: 18px;
     text-decoration: none;
 }
 
-.market-para a:hover{
+.market-para a:hover {
     color: #424242;
 }
 
@@ -259,18 +260,18 @@ body{
 
 /* ^ Account Section Starts Here. */
 
-.account-container{
+.account-container {
     margin-top: 75px;
 }
 
-.account h1{
+.account h1 {
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.account p{
+.account p {
     font-size: 16px;
     line-height: 27.2px;
     margin-bottom: 15px;
@@ -278,3 +279,86 @@ body{
 }
 
 /* & Account Section Ends Here. */
+
+/* * -------------------------------------------------------------------------------------- */
+
+/* ^ Footer Section Starts Here. */
+footer {
+    box-shadow: 2px 2px 1px rgba(110, 110, 110, 0.041);
+}
+
+.footer-logo {
+    padding: 10px 0;
+}
+
+#first {
+    width: 242px;
+    height: 334px;
+}
+
+#first p {
+    font-size: 12.8px;
+    line-height: 23.04px;
+    text-align: start;
+    color: #666666;
+    font-weight: 450;
+}
+
+.special {
+    margin-bottom: 0;
+}
+
+#first img {
+    max-height: 20px;
+    width: auto;
+}
+
+.second {
+    width: 242px;
+    height: 302px;
+}
+
+.third {
+    width: 242px;
+    height: 334px;
+}
+
+.fourth {
+    width: 242px;
+    height: 110px;
+}
+
+.common h1 {
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+    color: #424242;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.common h4 {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 10px;
+    font-weight: 450;
+}
+
+.common h4:hover {
+    color: #387ed1;
+    cursor: pointer;
+}
+
+.logos {
+    margin-top: 15px;
+}
+
+.logos i {
+    margin-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* & Footer Section Ends Here. */
