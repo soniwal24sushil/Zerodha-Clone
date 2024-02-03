@@ -75,7 +75,7 @@ body{
     color: #424242;
     text-align: start;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .rec-content p{
@@ -112,3 +112,50 @@ body{
 }
 
 /* & Recognition Section Ends Here. */
+
+/* * -------------------------------------------------------------------------------------- */
+
+/* ^ Trust Section Starts Here. */
+
+.trust{
+    margin-top: 80px;
+}
+
+.left-trust h1{
+    font-size: 2rem;
+    line-height: 48px;
+    color: #424242;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.para h3{
+    font-size: 20px;
+    line-height: 34px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.para p{
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #666666;
+    margin-bottom: 32px;
+}
+
+.trust-img img{
+    height: 580px;
+    width: auto;
+}
+
+.links a{
+    padding: 0 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.links a:hover{
+    color: #424242;
+}
+
+/* & Trust Section Ends Here. */
