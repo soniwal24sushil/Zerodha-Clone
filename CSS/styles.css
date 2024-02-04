@@ -111,6 +111,12 @@ body {
     margin-top: 16px;
 }
 
+@media only screen and (max-width: 768px) {
+    .rec-content h1{
+        margin-top: 40px;
+    }
+}
+
 /* & Recognition Section Ends Here. */
 
 /* * -------------------------------------------------------------------------------------- */
@@ -218,6 +224,12 @@ body {
     color: #424242;
 }
 
+@media only screen and (max-width: 768px) {
+    .all-box{
+        margin-top: 20px;
+    }
+}
+
 /* & Price Section Ends Here. */
 
 /* * -------------------------------------------------------------------------------------- */
@@ -254,6 +266,12 @@ body {
     color: #424242;
 }
 
+@media only screen and (max-width: 768px) {
+    .market-content h2{
+        margin-top: 20px;
+    }
+}
+
 /* & Market Section Ends Here. */
 
 /* * -------------------------------------------------------------------------------------- */
@@ -283,49 +301,33 @@ body {
 /* * -------------------------------------------------------------------------------------- */
 
 /* ^ Footer Section Starts Here. */
-footer {
-    box-shadow: 2px 2px 1px rgba(110, 110, 110, 0.041);
+
+.footer-container{
+    margin-top: 100px !important;
+    box-shadow: 2px 2px 1px rgba(110, 110, 110, 0.027);
 }
 
-.footer-logo {
-    padding: 10px 0;
-}
-
-#first {
-    width: 242px;
-    height: 334px;
-}
-
-#first p {
-    font-size: 12.8px;
-    line-height: 23.04px;
-    text-align: start;
-    color: #666666;
-    font-weight: 450;
-}
-
-.special {
-    margin-bottom: 0;
-}
-
-#first img {
+.first img{
     max-height: 20px;
     width: auto;
 }
 
-.second {
-    width: 242px;
-    height: 302px;
+.first p{
+    font-size: 13.5px;
+    line-height: 23.04px;
+    text-align: start;
+    color: #666666;
+    font-weight: 475;
 }
 
-.third {
-    width: 242px;
-    height: 334px;
+.logos {
+    margin-top: 15px;
 }
 
-.fourth {
-    width: 242px;
-    height: 110px;
+.logos i {
+    margin-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .common h1 {
@@ -351,14 +353,11 @@ footer {
     cursor: pointer;
 }
 
-.logos {
-    margin-top: 15px;
-}
-
-.logos i {
-    margin-right: 5px;
-    font-size: 20px;
-    cursor: pointer;
+/* Media query for small to medium screens (Footer */
+@media only screen and (max-width: 768px) {
+    .common h1{
+        margin-top: 30px;
+    }
 }
 
 /* & Footer Section Ends Here. */
